@@ -1,0 +1,7 @@
+{
+    "name": "exersize",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "nodemon app.js"
+    }
+}
