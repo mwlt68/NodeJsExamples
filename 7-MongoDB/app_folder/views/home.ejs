@@ -1,0 +1,16 @@
+<h1>Home Page</h1>
+<% if(name !='undefined' && name !=''){ %>
+    <h2><%= name %> </h2>
+    <h2><%= surname %> </h2>
+  <% } else{ %>  
+    <h2>Please,signup or login.</h2>
+    <form action="/signup" method="POST">
+    <div class="panel-footer clearfix">
+            <div class="pull-left">
+                <a href="/signup" class="btn btn-primary">Sign Up</a>
+                <a href="/login" class="btn btn-primary">Log In</a>
+            </div>
+        </div>
+    </form>
+ <% } %>
+    

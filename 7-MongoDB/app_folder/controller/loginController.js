@@ -1,0 +1,11 @@
+module.exports.index=function(req,res){
+    console.log('Login-Get');
+    res.render('login');
+}
+module.exports.indexPost=function(req,res){
+    console.log('Login-Post');
+    res.render('home',{
+        name:req.body.username,
+        surname:req.body.password
+    });
+}

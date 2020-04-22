@@ -1,0 +1,13 @@
+{
+    "name": "express2",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^3.0.1",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0"
+    }
+}
